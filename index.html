@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trach Tech CV - Dashboard</title>
+ 
+ 
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+    
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  
+
+
+</head>
+<body>
+
+   <!-- Header -->
+  <header>
+    <div>
+      <h1>Trach Tech CV</h1>
+      <span>Sistema Inteligente de Monitoramento de Depósitos de Lixo</span>
+    </div>
+    <div class="topbar-right">
+      <button class="btn btn-dark">Dashboard</button>
+        <h3>Nível Médio</h3>
+        <p>56%</p>
+      </div>
+      <div class="card">
+        <h3>Capacidade Utilizada</h3>
+        <p>62%</p>
+      </div>
+    </div>
+  </header>
+
+
+
+    <!-- Depósitos -->
+    <div class="panel">
+      <h2>Depósitos Monitorados (4 total)</h2>
+      <div class="grid">
+        <div class="deposito">
+          <h3>Depósito - Praia</h3>
+          <p>Estado:<span class="tag atencao">Quase Cheio</span></p>
+          <div class="status">
+            
+            <span>26°C Temp.</span>
+            <span>78% Umidade</span>
+          </div>
+        </div>
+
+        <div class="deposito">
+          <h3>Depósito - Palmarejo  </h3>
+          <p>Estado:<span class="tag critico">Cheio</span></p>
+          <div class="status">
+            <span>28°C Temp.</span>
+            <span>70% Umidade</span>
+          </div>
+        </div>
+
+        <div class="deposito">
+          <h3>Deposito - Monte Sossego </h3>
+          <p>Estado:<span class="tag normal">Vazio</span></p>
+          <div class="status">
+            <span>25°C Temp.</span>
+            <span>68% Umidade</span>
+          </div>
+        </div>
+
+        <div class="deposito">
+          <h3>Deposito - Chã Alecrim </h3>
+          <p>Estado:<span class="tag normal">Vazio</span></p>
+          <div class="status">
+            <span>25°C Temp.</span>
+            <span>68% Umidade</span>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <!-- Mapa -->
+    <div class="panel">
+      <h2>Mapa de Depósitos - Cabo Verde</h2>
+      <div id="map"></div>
+    </div>
+  </main>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    
+  </script>
+    
+  </main>
+
+  <footer>
+    <p>Desenvolvido por: Kleiton Da Rosa</p>
+  </footer>
+</body>
+
+
+</html>
